@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet"> 
+         <link rel="stylesheet" type="text/css" href="css/framework7.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Trashcan Tycoon</title>
+    </head>
+    <body>
+        <div id="app">
+        <div class="view view-main">
+            <div class="page" data-name="home">
+                <div class="page-content">
+                    <h1>Trashcan Tycoon</h1>
+                    <a class="button button-fill" id="takePic">Take an Image</a>
+                   <div id="map"></div>
+                    <div id="form">
+      <table>
+      
+      <tr><td>Type:</td> <td><select id='type'> +
+                 <option value='waste' SELECTED>Waste</option>
+                 <option value='recycle'>Recyling</option>
+          <option value='both'>Both</option>
+                 </select> </td></tr>
+                 
+          <tr><td>Capacity:</td> <td><input type='text' id='name'/> </td> </tr>
+          <tr><td></td><td><input type='button' value='Save' onclick='saveData()'/></td></tr>
+      </table>
+    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDhYtQt5p2kKKyVnZpEHUwl3EtcSze-0U"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/framework7.min.js"></script>
+    <script src="js/scripts.js"></script>
+    </body>
+</html>

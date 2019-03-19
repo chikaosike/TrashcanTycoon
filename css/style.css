@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
+#map {
+    top: 30px;
+    height: 82vh;
+    width: 98vw;
+    left: 1vw;
+}
+
+h1 {
+    padding: 0px 10px;
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+#takePic.button {
+    width: 50vw;
+    left: 25vw;
+    color: black;
+    background-color: antiquewhite;
+}
+
+body {
+    background: #66bfff;
+}
